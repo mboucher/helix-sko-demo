@@ -3,6 +3,19 @@
   "host": "sko.adobe.com",
   "plugins": [
     {
+      "id": "asset-library",
+      "title": "My Assets",
+      "environments": [
+        "edit"
+      ],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+      "isPalette": true,
+      "includePaths": [
+        "**.docx**"
+      ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+    },
+    {
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
@@ -16,19 +29,6 @@
       "id": "tools",
       "title": "Tools",
       "isContainer": true
-    },
-    {
-      "id": "asset-library",
-      "title": "My Assets",
-      "environments": [
-        "edit"
-      ],
-      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
-      "isPalette": true,
-      "includePaths": [
-        "**.docx**"
-      ],
-      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
     },
     {
       "containerId": "tools",
